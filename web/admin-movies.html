@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Películas - The Reel Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Prociono&family=Montserrat:wght@500&family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="The Reel Café Logo" class="logo-image">
+                <h1 class="site-title">The Reel Café</h1>
+            </div>
+            
+            <div class="search-bar">
+                <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="search-text">Buscar</span>
+            </div>
+            
+            <nav class="nav-buttons">
+                <a href="user-profile.html" class="user-avatar-header">
+                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Admin">
+                </a>
+                <a href="index.html" class="btn btn-logout">CERRAR SESIÓN</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Admin Movies Section -->
+    <section class="admin-section">
+        <div class="admin-container">
+            <h2 class="admin-title">Gestión de películas</h2>
+            <p class="admin-subtitle">Administra el catálogo, registra nuevas películas y actualiza la información existente.</p>
+            
+            <div class="search-bar-admin">
+                <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="search-text-admin">Buscar película</span>
+            </div>
+            
+            <div class="admin-content">
+                <div class="movies-table">
+                    <div class="table-header movies-header">
+                        <span>Poster</span>
+                        <span>Título</span>
+                        <span>Duración</span>
+                    </div>
+                    
+                    <div class="table-body">
+                        <div class="table-row movies-row">
+                            <img src="https://www.figma.com/api/mcp/asset/bd47e81a-59f8-4dac-8a1f-664ade8120c3" alt="The Batman" class="movie-poster-small">
+                            <span>The Batman</span>
+                            <span>177 mins</span>
+                        </div>
+                        <div class="table-row movies-row">
+                            <img src="https://www.figma.com/api/mcp/asset/783bb557-e427-419c-8c9c-df62d9d2f23a" alt="Jojo Rabbit" class="movie-poster-small">
+                            <span>Jojo Rabbit</span>
+                            <span>108 mins</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="admin-actions">
+                    <a href="admin-movie-edit.html" class="btn-admin">Editar película</a>
+                    <a href="admin-movie-new.html" class="btn-admin">Publicar nueva</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Logo" class="footer-logo-img">
+                <span class="footer-title">The Reel Café</span>
+            </div>
+            <p class="footer-copyright">2025B - Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+</body>
+</html>
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Reel Café - Inicio</title>
+    <title>Panel de Control - The Reel Café</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,29 +27,38 @@
             </div>
             
             <nav class="nav-buttons">
-                <a href="login.html" class="btn btn-primary">INICIO SESION</a>
-                <a href="register.html" class="btn btn-secondary">REGISTRARSE</a>
+                <a href="user-profile.html" class="user-avatar-header">
+                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Admin">
+                </a>
+                <a href="index.html" class="btn btn-logout">CERRAR SESIÓN</a>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-background">
+    <!-- Admin Hero Section -->
+    <section class="admin-hero-section">
+        <div class="admin-hero-background">
             <img src="https://www.figma.com/api/mcp/asset/69a2e546-6697-4b7b-a1f0-30306dd90fcc" alt="Hero Background" class="hero-image">
         </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h2 class="hero-title">Bienvenido a The Reel Café</h2>
-                <div class="hero-image-left">
-                    <img src="https://www.figma.com/api/mcp/asset/c4be917d-d77e-4075-8715-467c6b54408b" alt="Movie Characters">
+        <div class="admin-hero-content">
+            <div class="admin-hero-left">
+                <h2 class="admin-hero-title">Bienvenido (usuario)</h2>
+                <div class="admin-hero-box">
+                    <div class="admin-hero-image">
+                        <img src="https://www.figma.com/api/mcp/asset/c4be917d-d77e-4075-8715-467c6b54408b" alt="Star Wars">
+                    </div>
+                    <h3 class="admin-panel-title">Panel de control</h3>
+                    <p class="admin-panel-description">Administra la plataforma, gestiona usuarios y publica nuevas películas.</p>
                 </div>
-                <p class="hero-description">
-                    El espacio donde el cine se convierte en conexión. Aquí puedes descubrir películas, 
-                    compartir tus reseñas y calificaciones, y conocer a personas que disfrutan las mismas 
-                    historias que tú. Explora opiniones, sigue a otros usuarios y construye tu propio 
-                    círculo cinéfilo. Porque las películas no solo se ven… también se comparten.
-                </p>
+            </div>
+            
+            <div class="admin-hero-right">
+                <a href="admin-users.html" class="admin-action-btn">
+                    <span>Gestionar usuarios</span>
+                </a>
+                <a href="admin-movies.html" class="admin-action-btn">
+                    <span>Gestionar películas</span>
+                </a>
             </div>
         </div>
     </section>
