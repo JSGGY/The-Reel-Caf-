@@ -14,8 +14,8 @@
     <header class="header">
         <div class="header-content">
             <div class="logo-section">
-                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="The Reel Café Logo" class="logo-image">
-                <h1 class="site-title">The Reel Café</h1>
+                <img src="imgs/logo.png" alt="The Reel Café Logo" class="logo-image">
+                <h1 class="site-title">The Reel <br> Café</h1>
             </div>
             
             <div class="search-bar">
@@ -27,10 +27,12 @@
             </div>
             
             <nav class="nav-buttons">
-                <div class="user-avatar-header">
-                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Usuario">
-                </div>
+                <a href="user-profile.html" class="user-avatar-header">
+                    <img src="imgs/shrek-user.png" alt="Usuario">
+                </a>
+                <a href="index.html" class="btn btn-secondary">CERRAR SESIÓN</a>
             </nav>
+
         </div>
     </header>
 
@@ -39,7 +41,7 @@
         <div class="profile-container">
             <div class="profile-left">
                 <div class="profile-avatar-large">
-                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Usuario">
+                    <img src="imgs/shrek-user.png" alt="Usuario">
                 </div>
                 <h2 class="profile-username">(Usuario)</h2>
                 <p class="profile-followers">Seguidores: 67</p>
@@ -50,25 +52,34 @@
                 <h3 class="profile-reviews-title">Tus reseñas:</h3>
                 
                 <div class="profile-reviews-container">
-                    <div class="profile-review-card">
-                        <div class="profile-review-header">
-                            <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Movie Poster" class="profile-review-poster">
-                            <div class="profile-review-user">
-                                <div class="profile-review-avatar">
-                                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Usuario">
+                        <div class="feed-card">
+                            <div class="feed-movie-poster">
+                                <img src="imgs/megamente.png" alt="Movie">
+                            </div>
+
+                            <div class="feed-subcard">
+                                <div class="feed-header">
+                                    <div class="feed-user">
+                                        <div class="feed-avatar">
+                                            <img src="imgs/shrek-user.png" alt="Usuario">
+                                        </div>
+                                        <span class="feed-username">(Usuario)</span>
+                                    </div>
                                 </div>
-                                <span class="profile-review-name">(Usuario)</span>
+                                <div class="feed-review">
+                                    <p class="feed-text">Funny</p>
+                                </div>
+                            </div>
+                            <div class="feed-subsubcard">
+                                <div class="feed-rating">4.5/5</div>
+                                <div class="feed-likes">
+                                    <svg class="heart-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="#d99c45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>209 likes</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="profile-review-rating">5/5</div>
-                        <p class="profile-review-text">Oscar deserved</p>
-                        <div class="profile-review-likes">
-                            <svg class="heart-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="#d99c45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span>10 likes</span>
-                        </div>
-                    </div>
                     
                     <div class="profile-reviews-scrollbar"></div>
                 </div>
@@ -83,7 +94,7 @@
         <div class="footer-content">
             <div class="footer-logo">
                 <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Logo" class="footer-logo-img">
-                <span class="footer-title">The Reel Café</span>
+                <span class="footer-title">The Reel <br> Café</span>
             </div>
             <p class="footer-copyright">2025B - Aplicaciones Web - Grupo 2</p>
         </div>

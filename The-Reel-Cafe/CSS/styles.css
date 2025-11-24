@@ -2139,12 +2139,12 @@ a {
 .btn-follow {
     padding: var(--spacing-md) var(--spacing-xl);
     font-family: var(--font-primary);
-    font-size: var(--font-size-md);
+    font-size: 30px;
     font-weight: var(--font-weight-medium);
-    color: var(--color-text-primary);
+    color: white;
     background-color: var(--color-primary);
     border: none;
-    border-radius: var(--radius-pill);
+    border-radius: 14px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color var(--transition-normal);
@@ -2159,12 +2159,12 @@ a {
 .btn-back {
     padding: var(--spacing-md) var(--spacing-xl);
     font-family: var(--font-primary);
-    font-size: var(--font-size-md);
+    font-size: 30px;
     font-weight: var(--font-weight-medium);
-    color: var(--color-text-light);
+    color: white;
     background-color: var(--color-primary-darker);
     border: none;
-    border-radius: var(--radius-pill);
+    border-radius: 14px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color var(--transition-normal);
