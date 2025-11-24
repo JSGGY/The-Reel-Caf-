@@ -1330,7 +1330,7 @@ a {
 
 .hero-feed {
     display: flex;
-    justify-content:space-around;
+    
     gap: 25px;
 }
 .hero-feed-admin {
@@ -1343,7 +1343,7 @@ a {
     flex-direction: column;
     justify-content: flex-end;
     margin-top: 60px;
-    margin-left: 500px;
+    margin-left: 330px;
 }
 .hero-feed-content-admin {
     display: flex;
@@ -1404,7 +1404,7 @@ a {
     height: 850px;
     max-height: 790px;
     overflow-y: auto;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-top: 50px;
 }
 
@@ -1414,6 +1414,7 @@ a {
     padding: 25px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     display: flex;
+;
 }
 
 .feed-header {
@@ -1444,6 +1445,7 @@ a {
     gap: 8px;
 }
 .feed-subcard{
+    justify-content: space-between;
     margin-left: 20px;
 }
 .feed-avatar {
