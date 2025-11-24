@@ -126,7 +126,7 @@ a {
 /* Hero Section */
 .hero-section {
     position: relative;
-    height: 1039px;
+    height: 1300px;
     overflow: hidden;
 }
 
@@ -153,6 +153,7 @@ a {
 
 .hero-text {
     position: relative;
+    margin-top: 250px;
     margin-bottom: 48px;
 }
 
