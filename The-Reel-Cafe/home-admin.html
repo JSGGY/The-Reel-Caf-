@@ -14,8 +14,8 @@
     <header class="header">
         <div class="header-content">
             <div class="logo-section">
-                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="The Reel Café Logo" class="logo-image">
-                <h1 class="site-title">The Reel Café</h1>
+                <img src="imgs/logo.png" alt="The Reel Café Logo" class="logo-image">
+                <h1 class="site-title">The Reel <br> Café</h1>
             </div>
             
             <div class="search-bar">
@@ -28,39 +28,47 @@
             
             <nav class="nav-buttons">
                 <a href="user-profile.html" class="user-avatar-header">
-                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Admin">
+                    <img src="imgs/shrek-user.png" alt="Usuario">
                 </a>
-                <a href="index.html" class="btn btn-logout">CERRAR SESIÓN</a>
+                <a href="index.html" class="btn btn-secondary">CERRAR SESIÓN</a>
             </nav>
+
         </div>
     </header>
 
-    <!-- Admin Hero Section -->
-    <section class="admin-hero-section">
-        <div class="admin-hero-background">
-            <img src="https://www.figma.com/api/mcp/asset/69a2e546-6697-4b7b-a1f0-30306dd90fcc" alt="Hero Background" class="hero-image">
+    <!-- Hero Section Logged -->
+    <section class="hero-section-logged">
+        <div class="hero-background">
+            <img src="imgs/Banner2.png" alt="Hero Background" class="hero-image">
         </div>
-        <div class="admin-hero-content">
-            <div class="admin-hero-left">
-                <h2 class="admin-hero-title">Bienvenido (usuario)</h2>
-                <div class="admin-hero-box">
-                    <div class="admin-hero-image">
-                        <img src="https://www.figma.com/api/mcp/asset/c4be917d-d77e-4075-8715-467c6b54408b" alt="Star Wars">
+        <div class="hero-content-logged">
+            <div class="hero-welcome">
+                <h2 class="hero-title-logged">Bienvenido (usuario) a <br> The Reel<br> Café</h2>
+            </div>
+        </div>
+    </section>
+    <section class="hero-feed-admin">
+                <div class="hero-feed-content-admin">
+                    <h3 class="feed-title">Panel de control</h3>
+                    <h2 class="feed-subtitle-admin">Administra la plataforma, gestiona usuarios y <br> publica nuevas películas.</h2>
+                    <div class="hero-feed-image">
+                        <img src="imgs/starwars.png" alt="Feed Image">
                     </div>
-                    <h3 class="admin-panel-title">Panel de control</h3>
-                    <p class="admin-panel-description">Administra la plataforma, gestiona usuarios y publica nuevas películas.</p>
+                </div>
+
+                <div class="feed-social">
+                    <div>
+                        <div class="admin-hero-right">
+                            <a href="admin-users.html" class="admin-action-btn">
+                                <span>Gestionar usuarios</span>
+                            </a>
+                            <a href="admin-movies.html" class="admin-action-btn2">
+                                <span>Gestionar películas</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="admin-hero-right">
-                <a href="admin-users.html" class="admin-action-btn">
-                    <span>Gestionar usuarios</span>
-                </a>
-                <a href="admin-movies.html" class="admin-action-btn">
-                    <span>Gestionar películas</span>
-                </a>
-            </div>
-        </div>
     </section>
 
     <!-- Featured Movies Section -->
