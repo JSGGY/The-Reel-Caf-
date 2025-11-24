@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Película - The Reel Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Prociono&family=Montserrat:wght@500&family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="The Reel Café Logo" class="logo-image">
+                <h1 class="site-title">The Reel Café</h1>
+            </div>
+            
+            <div class="search-bar">
+                <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="search-text">Buscar</span>
+            </div>
+            
+            <nav class="nav-buttons">
+                <a href="user-profile.html" class="user-avatar-header">
+                    <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Admin">
+                </a>
+                <a href="index.html" class="btn btn-logout">CERRAR SESIÓN</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- New Movie Section -->
+    <section class="admin-section">
+        <div class="admin-container">
+            <h2 class="admin-title">Gestión de películas</h2>
+            <p class="admin-subtitle">Administra el catálogo, registra nuevas películas y actualiza la información existente.</p>
+            
+            <div class="movie-form-container">
+                <div class="movie-form-left">
+                    <label class="poster-upload-label">
+                        <span class="poster-label-title">Poster</span>
+                        <span class="poster-label-subtitle">Haz clic para subir un nuevo poster</span>
+                        <div class="poster-preview poster-preview-empty">
+                            <svg class="upload-icon" width="80" height="80" viewBox="0 0 24 24" fill="none">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <polyline points="17 8 12 3 7 8" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <line x1="12" y1="3" x2="12" y2="15" stroke="#666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="movie-form-right">
+                    <form class="movie-form">
+                        <div class="form-group">
+                            <label for="title" class="form-label">Título</label>
+                            <input type="text" id="title" class="form-input" placeholder="Ingresa el título de la película">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="synopsis" class="form-label">Sinópsis</label>
+                            <textarea id="synopsis" class="form-textarea" rows="5" placeholder="Ingresa la sinópsis de la película"></textarea>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="director" class="form-label">Director</label>
+                                <input type="text" id="director" class="form-input-small" placeholder="Ingresa">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="duration" class="form-label">Duración</label>
+                                <input type="text" id="duration" class="form-input-small" placeholder="Ingresa mins">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="trailer" class="form-label">Trailer URL</label>
+                            <input type="url" id="trailer" class="form-input" placeholder="Ingresa la url del trailer">
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-form">Publicar</button>
+                            <a href="admin-movies.html" class="btn-cancel">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://www.figma.com/api/mcp/asset/e4c6a54b-819d-4f0a-8066-72583231238a" alt="Logo" class="footer-logo-img">
+                <span class="footer-title">The Reel Café</span>
+            </div>
+            <p class="footer-copyright">2025B - Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+</body>
+</html>
+

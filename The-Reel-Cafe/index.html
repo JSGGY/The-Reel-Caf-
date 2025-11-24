@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reel Café - Inicio</title>
+    <link rel="stylesheet" href= "CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Prociono&family=Montserrat:wght@500&family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="imgs/logo.png" alt="The Reel Café Logo" class="logo-image">
+                <h1 class="site-title">The Reel <br>Café</h1>
+            </div>
+            
+            <div class="search-bar">
+                <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="search-text">Buscar</span>
+            </div>
+            
+            <nav class="nav-buttons">
+                <a href="login.html" class="btn btn-primary">INICIO SESION</a>
+                <a href="register.html" class="btn btn-secondary">REGISTRARSE</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-background">
+            <img src="imgs/Banner.png" alt="Hero Background" class="hero-image">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Bienvenido a The Reel Café</h2>
+                <div class="hero-image-left">
+                    <img src="imgs/ghost.png" alt="Movie Characters">
+                </div>
+                <p class="hero-description">
+                    El espacio donde el cine se convierte en conexión. Aquí puedes descubrir películas, 
+                    compartir tus reseñas y calificaciones, y conocer a personas que disfrutan las mismas 
+                    historias que tú. Explora opiniones, sigue a otros usuarios y construye tu propio 
+                    círculo cinéfilo. Porque las películas no solo se ven… también se comparten.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Movies Section -->
+    <section class="featured-section">
+        <div class="featured-header">
+            <h2 class="featured-title">Películas destacadas</h2>
+        </div>
+        
+        <div class="movies-container">
+            <button class="slider-btn slider-btn-left">&lt;</button>
+            
+            <div class="movies-slider">
+                <div class="movie-card">
+                    <img src="imgs/spider-man.png" alt="Spider-Man: Into the Spider-Verse" class="movie-poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Spider-Man: Into the Spider-Verse</h3>
+                        <div class="movie-rating">
+                            <span class="rating-number">4.4</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="imgs/rocky.png" alt="Rocky" class="movie-poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Rocky</h3>
+                        <div class="movie-rating">
+                            <span class="rating-number">4.1</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="imgs/transformers.png" alt="Transformers ONE" class="movie-poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Transformers ONE</h3>
+                        <div class="movie-rating">
+                            <span class="rating-number">3.8</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="imgs/Superman.jpg" alt="Superman (2025)" class="movie-poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Superman (2025)</h3>
+                        <div class="movie-rating">
+                            <span class="rating-number">4</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="slider-btn slider-btn-right">&gt;</button>
+        </div>
+        
+        <div class="slider-progress">
+            <div class="progress-bar"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="imgs/logo.png" alt="Logo" class="footer-logo-img">
+                <span class="footer-title">The Reel <br> Café</span>
+            </div>
+            <p class="footer-copyright">2025B - Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+</body>
+</html>
+
