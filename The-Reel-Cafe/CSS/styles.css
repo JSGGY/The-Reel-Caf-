@@ -1335,17 +1335,6 @@ a {
     display: flex;
 }
 
-.feed-card-content {
-    display: flex;
-    gap: 10px;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.feed-subsubcard {
-    margin-left: auto;
-}
-
 .feed-header {
     display: flex;
     align-items: center;
