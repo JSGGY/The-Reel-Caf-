@@ -1114,24 +1114,34 @@ a {
     margin: 0 auto;
 }
 
+.admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
 .admin-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 56px;
     color: #000;
-    margin-bottom: 20px;
+    margin: 0;
+    flex-shrink: 0;
 }
 
 .admin-subtitle {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #6b6b6b;
-    margin-bottom: 40px;
+    margin: 0;
+    text-align: right;
 }
 
 .search-bar-admin {
-    background-color: #fff;
-    border: 2px solid #d9d9d9;
+    background-color: #A2650E;
+    border: 2px solid #A2650E;
     border-radius: 25px;
     padding: 12px 30px;
     display: flex;
@@ -1145,7 +1155,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #999;
+    color: #fff;
 }
 
 .admin-content {
@@ -1156,14 +1166,14 @@ a {
 .users-table,
 .movies-table {
     flex: 1;
-    background-color: #fff;
+    background-color: #d9d9d9;
     border: 2px solid #d9d9d9;
     border-radius: 12px;
     overflow: hidden;
 }
 
 .table-header {
-    background-color: #f5f5f5;
+    background-color: #d9d9d9;
     padding: 20px 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1180,6 +1190,8 @@ a {
 
 .table-body {
     padding: 20px;
+    background-color: #D0B88A;
+    margin: 20px;
 }
 
 .table-row {
@@ -1192,6 +1204,17 @@ a {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #333;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table-row:hover {
+    background-color: #FFFC66;
+}
+
+.table-row.active {
+    background-color: #FFFC66;
 }
 
 .table-row:last-child {
@@ -1233,6 +1256,42 @@ a {
 .btn-admin:hover {
     background-color: var(--color-primary-dark);
     color: var(--color-white);
+}
+
+.btn-edit {
+    background-color: #d99c45;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    background-color: #bf7c2e;
+}
+
+.btn-delete {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #ff5252;
+}
+
+.btn-deactivate {
+    background-color: #292929;
+    color: #fff;
+}
+
+.btn-deactivate:hover {
+    background-color: #1a1a1a;
+}
+
+.btn-activate {
+    background-color: #292929;
+    color: #fff;
+}
+
+.btn-activate:hover {
+    background-color: #1a1a1a;
 }
 
 /* Home Logged In */
