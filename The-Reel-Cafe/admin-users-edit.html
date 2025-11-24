@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Usuarios - The Reel Café</title>
+    <title>Editar Usuario - The Reel Café</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
             
             <div class="search-bar">
                 <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11 19C15.4183 19 15.4183 19 11 19C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M21 21L16.65 16.65" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <span class="search-text">Buscar</span>
@@ -73,11 +73,32 @@
                     </div>
                 </div>
                 
-                <div class="admin-actions">
-                    <a href="admin-users-edit.html" class="btn-admin btn-edit">Editar perfil</a>
-                    <button class="btn-admin btn-delete">Eliminar cuenta</button>
-                    <button class="btn-admin btn-deactivate">Desactivar cuenta</button>
-                    <button class="btn-admin btn-activate">Activar cuenta</button>
+                <div class="admin-edit-form">
+                    <form class="user-edit-form">
+                        <div class="form-group">
+                            <label class="form-label">Username:</label>
+                            <input type="text" class="form-input" placeholder="Ingresa el username" value="Will Ferrel">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Correo:</label>
+                            <input type="email" class="form-input" placeholder="Ingresa el correo" value="will@gmail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Rol:</label>
+                            <select class="form-select">
+                                <option value="usuario" selected>Usuario</option>
+                                <option value="admin">Admin</option>
+                                <option value="moderador">Moderador</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-admin btn-save">Guardar</button>
+                            <a href="admin-users.html" class="btn-admin btn-cancel">Cancelar</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -95,4 +116,3 @@
     </footer>
 </body>
 </html>
-
