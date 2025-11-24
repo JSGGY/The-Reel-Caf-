@@ -517,7 +517,7 @@ a {
 .auth-image-left {
     flex-shrink: 0;
     width: 500px;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
     border-radius: 16px;
 }
@@ -525,7 +525,7 @@ a {
 .auth-image-left img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* Movie Search & Detail Pages */
